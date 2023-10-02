@@ -10,6 +10,8 @@ public class Main {
 
     public static void main(String[] args) throws IOException {
 
+        // this is a comment
+
         BufferedReader bufferedReader = new BufferedReader(new FileReader("input.csv"));
 
         String readLine = bufferedReader.readLine();
