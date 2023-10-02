@@ -12,11 +12,11 @@ public class Main {
 
         // this is a comment
 
-        BufferedReader bufferedReader = new BufferedReader(new FileReader("input.csv"));
+      
 
-        String readLine = bufferedReader.readLine();
+       // String readLine = bufferedReader.readLine();
 
-        System.out.println(readLine);
+       // System.out.println(readLine);
 
 
         List<String> allLines = Files.readAllLines(Path.of("input.csv"));
@@ -28,6 +28,8 @@ public class Main {
             System.out.println(eachLine);
 
         }
+
+      // cbdsjcdsj
 
     }
 }
